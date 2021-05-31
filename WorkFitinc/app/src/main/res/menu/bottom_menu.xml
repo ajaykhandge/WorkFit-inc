@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/bottom_statitics"
+        android:enabled="true"
+        android:icon="@drawable/icon_stats"
+        android:title="Statitics"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/bottom_settings"
+        android:enabled="true"
+        android:icon="@drawable/icons_edit"
+        android:title="@string/app_name"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/bottom_excerise"
+        android:enabled="true"
+        android:icon="@drawable/icons_exercise"
+        android:title="Exercise"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/bottom_nutrition"
+        android:enabled="true"
+        android:icon="@drawable/icons_nutriton"
+        android:title="Nutrition"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/bottom_profile"
+        android:enabled="true"
+        android:icon="@drawable/icons_profile"
+        android:title="Profile"
+        app:showAsAction="ifRoom" />
+</menu>

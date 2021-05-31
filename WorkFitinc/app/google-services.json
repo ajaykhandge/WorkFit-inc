@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "813529728381",
+    "project_id": "workfit-inc",
+    "storage_bucket": "workfit-inc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:813529728381:android:78cd73db5930b119b3f814",
+        "android_client_info": {
+          "package_name": "com.example.workfitinc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "813529728381-5h3o6m56mn012bdmu2icflm8a9n3g6qp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.workfitinc",
+            "certificate_hash": "bb44fd87f8dd57c2014963810ec8ae5042451dfb"
+          }
+        },
+        {
+          "client_id": "813529728381-0tbfhcq159qhe9qf4r5suph0hplch8fp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyhrbprlUg_2JAzP8nh9IpORMJYtVsiLU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "813529728381-0tbfhcq159qhe9qf4r5suph0hplch8fp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

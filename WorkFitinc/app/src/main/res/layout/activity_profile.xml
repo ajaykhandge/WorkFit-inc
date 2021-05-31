@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity"
+
+    android:background="#5de3b0">
+
+    <androidx.viewpager.widget.ViewPager
+        android:layout_marginLeft="15dp"
+        android:background="#F6F2F8"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/profile_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </androidx.viewpager.widget.ViewPager>
+
+</RelativeLayout>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:layout_margin="20dp"
+    android:background="#E2E8F3">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/water_drink_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/man_drinks_water"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/water_drink_tag_line1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Recharge yourself"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/water_drink_tag_line2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Drink Water time to time..!"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+        <LinearLayout
+            android:id="@+id/edt_drink_water"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/btn_bg"
+            android:elevation="5dp">
+
+            <ImageView
+                android:id="@+id/custom_alert_signout_imageview"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/man_drinks_water"
+                android:layout_gravity="center"
+                android:elevation="10dp"
+                android:layout_marginStart="20dp"/>
+
+            <EditText
+                android:id="@+id/drink_water_change_edt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Change water drink time"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_change_drink_water"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="60dp"
+            android:gravity="center"
+            android:layout_marginEnd="60dp"
+            android:background="@drawable/btn_circular_bg"
+            android:elevation="5dp">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Change Time"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Privacy policy"
+                android:textColor="@color/black"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Terms of services"
+                android:layout_marginStart="20dp"
+                android:textColor="@color/black"
+                android:textSize="14sp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

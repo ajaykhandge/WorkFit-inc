@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.workfitinc">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.WorkFitinc">
+        <activity android:name=".ExerciseDetailsActivity"></activity>
+        <activity android:name=".YogaActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity
+            android:name=".HomeActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".EmailLoginActivity" />
+        <activity android:name=".SignInWithGoogleActivity" />
+        <activity android:name=".ExceriseActivity" />
+        <activity android:name=".SelectWorkoutActivity" />
+        <activity android:name=".EmailRegistrationActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".SignupActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <receiver android:name=".MyNotificationPublisher"/>
+    </application>
+
+</manifest>

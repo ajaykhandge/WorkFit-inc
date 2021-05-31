@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:onClick="closeViewpager"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/cancel_dialog_icon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginRight="120dp"
+        android:layout_marginBottom="16dp"
+        android:src="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"></ImageView>
+
+    <TextView
+        android:onClick="prevpage"
+        android:id="@+id/txt_prev_step"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:text="Previous Step"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"></TextView>
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:onClick="uploadProfile"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/border_black"
+        android:gravity="center"
+        android:text="Finish Profile"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/txt_prev_step"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"></TextView>
+
+    <EditText
+        android:id="@+id/ediTextHeight"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"
+        android:inputType="number"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/rounder_border"
+        android:gravity="start"
+        android:padding="30dp"
+        android:hint="Enter height"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/ediTextHeight"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.647">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What your height?"
+            android:textSize="25sp"
+            android:textStyle="bold"></TextView>
+
+        <ImageView
+            android:layout_marginTop="15dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/height_compare"></ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ediTextHeight">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Height "
+            android:textSize="22sp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/textViewHeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold"></TextView>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
